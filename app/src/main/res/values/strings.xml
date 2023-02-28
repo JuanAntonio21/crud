@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Videoj</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="btnIni">Iniciar Sesion</string>
+    <string name="btnReg">Registrarse</string>
+    <string name="txtReg">Registro</string>
+    <string name="txtNom">Nombre: </string>
+    <string name="txtApe">Apellidos: </string>
+    <string name="txtCor">Correo: </string>
+    <string name="txtTel">Telefono: </string>
+    <string name="txtPai">Pais: </string>
+    <string name="txtPro">Provicia: </string>
+    <string name="txtCon">Contraseña: </string>
+    <string name="txtCon2">Repita la contraseña: </string>
+    <string name="txtSex">Sexo: </string>
+    <string name="txtFec">Fecha Nacimiento: </string>
+    <string name="btnAce">Aceptar</string>
+    <string name="btnCan">Cancelar</string>
+    <string name="sexM">Mujer</string>
+    <string name="sexH">Hombre</string>
+    <string name="txtIni">Inicio de Sesion</string>
+    <string name="tit">Videojuegos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_videoj_detail">Detalle</string>
+
+    <string name="editar_ac">Editar</string>
+    <string name="anadir_editar">Añadir/Editar Videojuego</string>
+    <string name="borrar_ac">Eliminar</string>
+</resources>

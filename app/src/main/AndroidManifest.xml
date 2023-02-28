@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Videoju">
+        <activity
+            android:name="com.develou.videojuegos.videoj.VideojActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Videoju.NoActionBar"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.develou.videojuegos.videojdetail.VideojDetailActivity"
+            android:label="@string/title_activity_videoj_detail"
+            android:theme="@style/Theme.Videoju.NoActionBar" />
+        <activity
+            android:name="com.develou.videojuegos.addeditvideoj.AddEditVideojActivity"
+            android:label="@string/editar_ac"
+            android:theme="@style/Theme.Videoju.NoActionBar" />
+
+        <activity android:name=".inicio.Registro"></activity>
+        <activity android:name=".inicio.IniciSes"></activity>
+        <activity android:name=".inicio.MainActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

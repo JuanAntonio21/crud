@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".addeditvideoj.AddEditVideojFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="NOMBRE" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="phone"
+            tools:text="69" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Genero"
+            android:inputType="text"
+            tools:text="GENERO" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="Descripcion"
+            android:imeOptions="actionDone"
+            android:inputType="text|textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
